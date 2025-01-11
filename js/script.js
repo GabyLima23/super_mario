@@ -30,24 +30,7 @@ function terminaJogo(pipePosition, marioPosition){
 console.log('terminouJogo')
 }
 
-let loop// = setInterval(()=>{
-
-//     const pipePosition = pipe.offsetLeft;
-//     let marioPosition = window.getComputedStyle(mario).bottom;
-    
-//     marioPosition = marioPosition.slice(0, -2)
- 
-
-//     if(pipePosition <= 120 && pipePosition > 0 && marioPosition<80){
-   
-    //  terninaJogo()
-     
-//          clearInterval(loop) 
-        
-        
-//     }
-     
-//  }, 10);
+let loop
 
    document.addEventListener('keydown', (event)=>{
             // console.log(event.code )
