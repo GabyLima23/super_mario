@@ -32,7 +32,7 @@ console.log('terminouJogo')
 
 let loop
 
-   document.addEventListener('keydown', (event)=>{
+document.addEventListener('keydown', (event)=>{
             // console.log(event.code )
             if(jogoRodando==0){
 
@@ -44,10 +44,7 @@ let loop
           }    
      )
 
-   
-  // console.log('a')
-
-   let time = 0; // Tempo inicial
+let time = 0; // Tempo inicial
 let timeInterval; // Variável para o intervalo de tempo
 
 function startTimer() {
@@ -111,9 +108,6 @@ function startGame() {
   pipe.style.animation='pipe-animation 1.5s infinite linear'
   clouds.style.animation='clouds-animation 20s infinite linear'
   
-       mario.src = './images/mario.gif' 
-
-  
- 
+  mario.src = './images/mario.gif'  
 }
  
